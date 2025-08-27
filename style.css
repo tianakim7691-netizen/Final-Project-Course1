@@ -34,6 +34,11 @@ body {
     letter-spacing: 2px;
 }
 
+.header .logo a {
+    color: #000;
+    text-decoration: none;
+}
+
 .header .nav ul {
     list-style: none;
     margin: 0;
@@ -367,7 +372,7 @@ body {
     animation: fillBars 2s forwards; /* animation */
 }
 
-/* Skill bar widths (example percentages) */
+/* Skill bar widths */
 .bar.ps { width: 90%; }
 .bar.ai { width: 80%; }
 .bar.id { width: 60%; }
